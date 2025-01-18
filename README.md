@@ -55,12 +55,11 @@ To install and run FAQ-Assistant, follow these steps:
 
 ```
 FAQ-Assistant/
-├── notebooks/          # Directory for Jupyter Notebooks
+├── .ipynb/          # Directory for Jupyter Notebooks
 ├── main.py             # Streamlit application entry point
 ├── requirements.txt    # Project dependencies
 ├── .env                # Environment variables file
 ├── README.md           # Project README
-└── LICENSE             # Project License
 ```
 
 ## LangChain
