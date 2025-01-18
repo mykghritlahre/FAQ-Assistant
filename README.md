@@ -75,16 +75,9 @@ FAQ-Assistant uses Google PaLM for natural language processing tasks. For more i
 
 We welcome contributions! Please read the `CONTRIBUTING.md` for details on the code of conduct, and the process for submitting pull requests.
 
-## License
-
-This project is licensed under the MIT License - see the `LICENSE` file for details.
-
 ## Acknowledgements
 
-- Thanks to the contributors and the open-source community for their support.
 - Special thanks to Google for providing the PaLM model.
 - Special thanks to the LangChain team for their comprehensive tools and documentation.
 
----
 
-Feel free to modify this template to better suit your project's specifics.
