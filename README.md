@@ -2,16 +2,18 @@
 
 ## Overview
 
-FAQ-Assistant is a tool designed to assist in managing and automating frequently asked questions. It leverages Jupyter Notebooks and Python to provide an interactive environment for creating, managing, and deploying FAQ systems. Additionally, it uses Streamlit to offer a simple and intuitive web interface for end-users.
+FAQ-Assistant is a powerful tool designed to manage and automate frequently asked questions using advanced language models. It leverages Jupyter Notebooks, Python, and Streamlit to provide an interactive and user-friendly interface for creating, managing, and deploying FAQ systems. The system utilizes the Google PaLM (Pathways Language Model) for natural language understanding and generation, along with LangChain for building and deploying language model applications.
 
 ## Features
 
-- **Interactive Notebooks**: Utilize Jupyter Notebooks for creating and managing FAQs.
-- **Python Integration**: Leverage Python scripts to process and analyze FAQ data.
-- **Streamlit Web Interface**: Simple and intuitive web interface for ease of use.
-- **Environment Management**: Uses `python-dotenv` for environment variable management.
-- **Efficient Data Handling**: Utilizes `faiss-cpu` for efficient similarity search and clustering.
-- **Tokenization**: Uses `tiktoken` to handle tokenization tasks efficiently.
+- **Interactive Notebooks**: Create and manage FAQs using Jupyter Notebooks.
+- **Python Integration**: Utilize Python scripts for data processing and analytics.
+- **Streamlit Web Interface**: Deploy a simple and intuitive web interface for end-users.
+- **Advanced Language Model**: Powered by Google PaLM for accurate and efficient language processing.
+- **LangChain Integration**: Build and deploy language model applications using LangChain.
+- **Environment Management**: Manage environment variables with `python-dotenv`.
+- **Efficient Data Handling**: Use `faiss-cpu` for efficient similarity search and clustering.
+- **Tokenization**: Handle tokenization tasks efficiently with `tiktoken`.
 
 ## Installation
 
@@ -32,20 +34,20 @@ To install and run FAQ-Assistant, follow these steps:
 
 ## Usage
 
-To start using FAQ-Assistant:
+### Using Jupyter Notebook
 
 1. Open Jupyter Notebook:
    ```bash
    jupyter notebook
    ```
-2. Navigate to the directory containing the FAQs.
+2. Navigate to the `notebooks` directory.
 3. Open the desired notebook and start managing your FAQs.
 
-Alternatively, to use the Streamlit interface:
+### Using Streamlit Interface
 
 1. Run the Streamlit application:
    ```bash
-   streamlit run app.py
+   streamlit run main.py
    ```
 2. Open your web browser and navigate to the provided local URL.
 
@@ -54,9 +56,35 @@ Alternatively, to use the Streamlit interface:
 ```
 FAQ-Assistant/
 ├── notebooks/          # Directory for Jupyter Notebooks
-├── main.py              # Streamlit application entry point
+├── main.py             # Streamlit application entry point
 ├── requirements.txt    # Project dependencies
 ├── .env                # Environment variables file
-└── README.md           # Project README
+├── README.md           # Project README
+└── LICENSE             # Project License
 ```
 
+## LangChain
+
+LangChain is used in FAQ-Assistant to build and deploy language model applications. For more information, refer to the [LangChain documentation](https://pypi.org/project/langchain/).
+
+## Google PaLM
+
+FAQ-Assistant uses Google PaLM for natural language processing tasks. For more information, refer to the [Google PaLM documentation](https://ai.google.dev/api/palm).
+
+## Contributing
+
+We welcome contributions! Please read the `CONTRIBUTING.md` for details on the code of conduct, and the process for submitting pull requests.
+
+## License
+
+This project is licensed under the MIT License - see the `LICENSE` file for details.
+
+## Acknowledgements
+
+- Thanks to the contributors and the open-source community for their support.
+- Special thanks to Google for providing the PaLM model.
+- Special thanks to the LangChain team for their comprehensive tools and documentation.
+
+---
+
+Feel free to modify this template to better suit your project's specifics.
