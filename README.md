@@ -1,6 +1,7 @@
-# FAQ-Assistant
+# Radamatic Solutions FAQ-Assistant
 
 ## Overview
+(This not an official faq assistant involved with *Radamatic Solutions*, here *Radamatic Solutions* have been used as a dummy company for the project building).
 
 FAQ-Assistant is a powerful tool designed to manage and automate frequently asked questions using advanced language models. It leverages Jupyter Notebooks, Python, and Streamlit to provide an interactive and user-friendly interface for creating, managing, and deploying FAQ systems. The system utilizes the Google PaLM (Pathways Language Model) for natural language understanding and generation, along with LangChain for building and deploying language model applications.
 
